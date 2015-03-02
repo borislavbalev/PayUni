@@ -36,7 +36,7 @@ header{
 	float:left;
     width: 255px;
     height: 65px;
-    content: url(img/banner.png);
+    background-image: url("/resources/img/banner.png");
 	}
 #logo p:first-of-type{
 	
@@ -176,7 +176,7 @@ nav ul{
 	text-decoration:none;
 	display:inline-block;
 	width:100%;
-	background:url("img/arrow_transp.png") no-repeat 3px 3px;
+	background:url("/resources/img/arrow_transp.png") no-repeat 3px 3px;
 	}
 #leftSide li a:hover,#leftSide li a:active{
 	position:relative;
@@ -431,5 +431,6 @@ footer div
 
 footer div a
 {
+    text-decoration: none;
     margin: 20px 10px;
 }
