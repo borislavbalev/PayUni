@@ -34,9 +34,9 @@ header{
 	}
 #logo{
 	float:left;
-	padding:21px 0px 21px 42px;
-	text-transform:uppercase;
-	font-style:italic;
+    width: 255px;
+    height: 65px;
+    content: url(img/banner.png);
 	}
 #logo p:first-of-type{
 	
@@ -45,15 +45,7 @@ header{
 	-webkit-text-fill-color: transparent;
 	background: -webkit-linear-gradient(rgb(220,218,215),rgb(55,55,55));
 	background: -o-linear-gradient(rgb(220,218,215),rgb(55,55,55));
-	-webkit-background-clip: text;
-	}
-.special{
-	display:inline-block;
-	color:rgb(181,113,65);
-	-webkit-text-fill-color:transparent;
-	background:-webkit-linear-gradient(rgb(247,214,154),rgb(181,113,65));
-	background:-o-linear-gradient(rgb(247,214,154),rgb(181,113,65));
-	-webkit-background-clip:text;
+	-webkit-background-clip:border-box;
 	}
 #logo p:nth-child(2){
 	color:rgb(251,162,25);
@@ -87,12 +79,26 @@ nav ul{
 	max-height:56px;
 	line-height:90%;
 	}
+
+#menu li a:hover
+{
+    background-color:rgb(195,195,195);
+	background: -webkit-linear-gradient(rgb(195,195,195),rgb(127,127,127)); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(rgb(195,195,195),rgb(127,127,127)); /* For Opera 11.1 to 12.0 */
+	background: -ms-linear-gradient(rgb(195,195,195),rgb(127,127,127));
+	filter: 	progid:DXImageTransform.Microsoft.Gradient(startColorstr='#fefefe', endColorstr='#dad4c5');
+  	background: -moz-linear-gradient(rgb(195,195,195),rgb(127,127,127)); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(rgb(195,195,195),rgb(127,127,127)); /* Standard syntax */
+
+    font-size: 1.3em;
+}
+
 #menu li:nth-last-child(1){
 	border-right:none;
 	}
 #menu li a{
 	display:block;
-	width:164.671px;
+	width:248px;
 	text-align:center;
 	text-decoration:none;
 	text-transform:uppercase;
@@ -108,7 +114,10 @@ nav ul{
 	overflow:hidden;
 	
 }
-#textUp{margin-top:25px;}
+#textUp
+{
+    margin-top:25px;
+}
 #upperSection{
 	clear:both;
 	background-color:rgb(53,53,53);
@@ -135,16 +144,19 @@ nav ul{
 	}
 #leftSide ul{
 	list-style-type:none;
-	width:55%;
+	width:60%;
 	
 	}
 #leftSide li{
 	padding:0px 0px 0px 0px;
 	/*border-bottom:1px dotted rgb(78,77,77);*/
 	width:100%;
+
+    margin-bottom: 2px;
+    border-bottom: 1px dotted gray;
 	
 	}
-#leftSide li:nth-last-child{
+#leftSide li:last-child{
 	border-bottom:none;
 	
 	}
