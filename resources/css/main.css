@@ -308,21 +308,30 @@ nav ul{
 /* vertical-align: top; */
 	
 }
+
+.imagetabs a {
+	text-decoration: none;
+	font-size:18px;
+	color: rgb(87,46,10);
+	/*word-break:break-all;*/
+	word-wrap:break-word;
+}
+
+.imagetabs a:hover {
+	text-decoration: underline;
+}
+
 .imagetabs h2{
 	
 	text-align:center;
 	margin:0px auto;
 }
 .imagetabs p{
-	font-size:18px;
 	max-width:60%;
 	float:left;
 	text-align:left;
 	margin-left:20px;
-    margin-top:-15px;
-	color: rgb(87,46,10);
-	/*word-break:break-all;*/
-	word-wrap:break-word;
+    margin-top:-15px;	
 }
 #articles{
 	float:left;
