@@ -32,11 +32,11 @@ header{
 	height:auto;
 	overflow:hidden;
 	}
-#logo{
+#logo:after{
 	float:left;
     width: 255px;
     height: 65px;
-    background-image: url("/resources/img/banner.png");
+    content: url("../img/banner.png");
 	}
 #logo p:first-of-type{
 	
@@ -226,11 +226,16 @@ nav ul{
 	width:300px;
 	height:300px;
 }
-#globe banner{
-	width:100%;
-	height:100%;
-	
+#product_banner{
+    margin:35px 0px 0px 25px;
+    padding:5px;
 }
+
+#product_banner img{
+    width:500px;
+    height:100%;
+}
+
 #topImage{
 	margin-top:89px;
 	margin-left:107px;
@@ -398,6 +403,60 @@ nav ul{
 	margin-bottom: 20px;
 }
 
+#imageGallery{
+	float:left;
+	margin-right:1.6%;
+	/*border:1px solid blue;*/
+	width:100%;
+	text-align:right;
+    max-height:750px;
+    overflow: scroll;
+    padding-top: 10px;
+	}
+.img{
+	/*display:inline-block;*/
+	float:left;
+	margin-bottom:30px;
+	margin-right:1%;
+	margin-left:1%;
+	width:170px;
+    min-height:120px;
+	border:1px solid gray;
+	border-radius:20px;
+	overflow:hidden;
+    padding-bottom:5px;
+	
+}
+.img:nth-child(4n+1){
+	margin-left:2%;
+	}
+.img:nth-child(4n+4){
+	margin-right:0%;
+	}
+.img .productimage{
+	width:100% !important;
+    height:auto !important;
+    margin:0px !important;
+    display:block !important;
+    border:none;
+    outline:none;
+}
+.img:hover{
+	-o-transform:scale(1.07,1.07);/*Opera*/
+	-moz-transform:scale(1.07,1.07);/*Mozilla*/
+	-ms-transform: scale(1.07,1.07); /* IE 9 */
+    -webkit-transform: scale(1.07,1.07); /* Chrome, Safari, Opera */
+    transform: scale(1.07,1.07);
+	}
+.img p{
+	margin-top:0px;
+	padding:0px 10px;
+	text-align:center;
+}
+.img p:first-of-type{
+	margin-top:5px;
+    margin-bottom:5px;
+	}
 
 footer
 {
