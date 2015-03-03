@@ -420,19 +420,19 @@ nav ul{
 	margin-right:1%;
 	margin-left:1%;
 	width:170px;
-    min-height:120px;
+    height: 250px;
 	border:1px solid gray;
 	border-radius:20px;
 	overflow:hidden;
     padding-bottom:5px;
 	
 }
-.img:nth-child(4n+1){
+/*.img:nth-child(4n+1){
 	margin-left:2%;
 	}
 .img:nth-child(4n+4){
 	margin-right:0%;
-	}
+	}*/
 .img .productimage{
 	width:100% !important;
     height:auto !important;
