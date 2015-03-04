@@ -305,8 +305,25 @@ nav ul{
     float: left;
     margin-left: 20px;
     margin-top: -10px;
-/* vertical-align: top; */
-	
+    /* vertical-align: top; */	
+}
+
+.imagetabs form textarea{
+	width: 275px;
+	height: 180px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.imagetabs form button{	
+  	float: right;
+	border-radius:8px;
+	margin-top:5px;
+	margin-right:25px;	
+}
+.imagetabs form button:hover{	
+  	color: rgb(205,205,205);
+  	cursor: pointer;
 }
 
 .imagetabs a {
@@ -394,10 +411,25 @@ nav ul{
 #mainSection img{
 	float:left;
 	width:115px;
-	height:60px;
+	height:80px;
 	margin-right:30px;
 	margin-bottom:15px;
 }
+
+#mainSection .our-info
+{
+	border-top: 1px solid #222;
+	border-bottom: 1px solid #222;
+	height: 200px;
+	padding-top: 20px;
+}
+
+#mainSection .face
+{
+	width: 150px;
+	height: 150px
+}
+
 #mainSection article
 {
 	margin: 20px 0;
