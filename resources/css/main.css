@@ -394,9 +394,17 @@ nav ul{
 #mainSection img{
 	float:left;
 	width:115px;
-	height:115px;
+	height:60px;
 	margin-right:30px;
 	margin-bottom:15px;
+}
+#mainSection article
+{
+	margin: 20px 0;
+}
+#mainSection p
+{
+	margin: 10px 0;
 }
 #mainSection .button{
 	float:right;
@@ -482,7 +490,7 @@ footer span
     font-size: 15px;
     height: 25px;
     width: 250px;
-    text-align: center;
+    text-align: right;
 }
 
 footer #disclamer
@@ -500,5 +508,5 @@ footer div
 footer div a
 {
     text-decoration: none;
-    margin: 20px 10px;
+    margin: 20px 10px 20px 40px;
 }
